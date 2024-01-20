@@ -1,0 +1,99 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px; /* Establece el tamaño del espacion entre el contenido y su borde*/
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: Impact, serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+img {
+    margin-top: -25px;
+    display: block; /* Aquí el display block significa que el elemento se comporte como un titulo en ves de texto como el display de abajo*/
+    margin-left: auto; /* Para centrarse se necesita margin-left y margin-right automaticos para que busquen la distancia correcta para centrarse*/
+    margin-right: auto;
+}
+
+.established {
+    font-style: italic;
+}
+
+.menu {
+    width: 80%; /* Tamaño del anchor de los objetos */
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; /* padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; */
+    max-width: 500px;
+}
+
+.flavor,.dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+.item p {
+    display: inline-block; /* Los elemento se comporten en linea con los demas parecido al a como se escriben los texto*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: black;
+}
+
+/* Sitio Visitado */
+a:visited { 
+    color: black;
+}
+
+/* Raton encima del elemento */
+a:hover {
+    color: brown;
+}
+
+/* Click sobre el elemento */
+a:active {
+    color: brown;
+}
+
+.address {
+    margin-bottom: 5px;
+}
